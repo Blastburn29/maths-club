@@ -19,6 +19,14 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.nav-name {
+    padding: 0 1rem;
+
+}
 .logo-and-name {
     display: flex;
     align-items: center;
