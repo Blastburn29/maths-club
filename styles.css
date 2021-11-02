@@ -7,7 +7,7 @@
 }
 
 body {
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
     background-color: #F3FFFF;
     max-width: 1300px;
     position: relative;
@@ -100,8 +100,8 @@ body {
 .blob {
     position: absolute;
     z-index: -1;
-    top: -100px;
-    left: 0;
+    top: -220px;
+    left: -150px;
 }
 
 .homepage-section-right {
