@@ -9,6 +9,9 @@
 body {
     padding: 0 5rem;
     background-color: #F3FFFF;
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
 }
 
 /* NavBar Start */
@@ -30,14 +33,17 @@ body {
 .logo-and-name {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .nav-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 1rem;
 }
 
 .link {
@@ -49,6 +55,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* height: 100vh; */
 }
 
 .homepage-section-left {
@@ -93,18 +100,25 @@ body {
 .blob {
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: -100px;
     left: 0;
 }
 
 .homepage-section-right {
     position: absolute;
-    right: 100px;
+    /* right: 100px; */
+    right: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
     .homepage-section-right embed {
-        width: 80%;
+        width: 50vw;
         z-index: -1;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .nav-links {
+        display: none;
     }
 }
