@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    outline: none;
 }
 
 body {
@@ -55,7 +56,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .homepage-section-left {
@@ -122,3 +123,342 @@ body {
         display: none;
     }
 }
+
+/* Kamakshya's Code Start */
+.container{
+    background-color: #DBFBFF;
+    border-radius: 15px;
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-item{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 10px;
+padding: 0px;
+align-items: center;
+text-align: center;
+box-sizing: border-box;
+}
+
+
+img{
+    max-width: 100%;
+}
+.text-center{
+    display: block;
+    text-align: center;
+}
+.header-f{
+    display: flex;
+    justify-content:center;
+}
+
+header{
+    font-size: x-large;
+    padding: 20px 0px 0px 0px;
+    font-weight:bold;
+}
+
+.h-item{
+padding: 10px;
+margin: 10px;
+width: 100%;
+}
+
+.h-item:last-child{
+    text-align: right;
+}
+input[type=text],input[type=email]{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #3bb9ca;
+    width: 75%;
+}
+
+textarea{
+    resize: none;
+    padding: 10px 15px;
+    margin: 5px;
+    width: 75%;
+    height: 100px;
+    border:2px solid #3bb9ca;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    color: aliceblue;
+    background-color: #3F3D56;
+    transition: 0.4s;
+}
+
+input[type=button]:hover{
+    box-shadow: -7px 4px 24px 1px rgba(0,0,0,0.38);
+-webkit-box-shadow: -7px 4px 24px 1px rgba(0,0,0,0.38);
+-moz-box-shadow: -7px 4px 24px 1px rgba(0,0,0,0.38);
+    cursor:pointer;
+}
+/* Kamakshya's Code End */
+
+/* Hritik Code Start */
+.team-section{
+	width:100%;
+}
+.team-section .container{
+	width:80% ;
+	margin: auto;
+}
+.team-section .container .row{
+	width:60% ;
+	margin: auto;
+}
+.team-section .container .row .title{
+	text-align: center;
+	margin-top: 50px;
+}
+.team-section .container .team-card{
+	width:100% ;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 100px;
+	margin-top: 50px;
+}
+.team-section .container .team-card .card{
+	width:100% ;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	space-between: 50px;
+	align-items: center;
+	padding: 20px;
+	flex-direction: column;
+	padding: 20px;
+	cursor: pointer;
+}
+.team-section .container .team-card .card:hover{
+	background-color: #f3f3f3;
+	transition: 0.3s;
+}
+.team-section .container .team-card .card .image-section img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	
+
+}
+.team-section .container .team-card .card .content{
+	font-family: sans-serif;
+}
+
+.team-section2{
+	width:100%;
+}
+.team-section2 .container2{
+	width: 80%;
+	margin: auto;
+}
+.team-section2 .container2 .row2{
+	width:60% ;
+	margin: auto;
+}
+.team-section2 .container2 .row2 .title2{
+	text-align: center;
+	margin-top: 50px;
+}
+.team-section2 .container2 .team-card2{
+	width:100% ;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 50px;
+	margin-top: 50px;
+}
+.team-section2 .container2 .team-card2.card2{
+	width:100% ;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	space-between: 10px;
+	align-items: center;
+	padding: 10px;
+	flex-direction: column;
+	padding: 10px;
+	cursor: pointer;
+}
+.team-section2 .container2 .team-card2 .card2:hover{
+	background-color: #f3f3f3;
+	transition: 0.3s;
+}
+.team-section2 .container2 .team-card2 .card2 .image-section2 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	
+
+}
+.team-section2 .container2 .team-card2 .card2 .content2{
+	font-family: sans-serif;
+}
+/* Hritik Code End */
+
+/* Hisham Code Start */
+.a{
+    font-size: 50px;
+    font-style: oblique;
+   display:flex;
+   flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  .e1{
+      flex-wrap: wrap;
+      width: 300px;
+      height:400px;
+      background-color: #DBFBFF;
+      border-radius: 30px;
+      position: relative;
+      left: 10px;
+      top: 100px;
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); ;
+  }
+  .i1{
+     position: relative; 
+     display: flex;
+      left: 80px;
+      top: 10px;
+      
+  }
+  .l2{
+      width: 260px;
+      position: relative;
+      left: 25px;
+      top:10px;
+      font-family:sans-serif;
+  }
+  .l1{
+      position:relative;
+      left: 60px;
+      font-size: 27px;
+      font-family: monospace;
+      font-weight: bold;
+      font-style: italic;
+      color: #2F2E41;
+  }
+  
+  
+  .e2{
+      flex-wrap: wrap;
+      width: 300px;
+      height:400px;
+      background-color: #DBFBFF;
+      border-radius: 30px;
+      position: relative;
+      left: 345px;
+      bottom: 300px;
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+  }
+  .i12{
+      position: relative; 
+      display: flex;
+       left: 80px;
+       top: 10px;
+       
+   }
+   .l22{
+       width: 260px;
+       position: relative;
+       left: 25px;
+       top:10px;
+       font-family:sans-serif;
+   }
+   .l12{
+       position:relative;
+       left: 60px;
+       font-size: 27px;
+       font-family: monospace;
+       font-weight: bold;
+       font-style: italic;
+       color: #2F2E41;
+   }
+   
+   
+   
+   .e3{
+      flex-wrap: wrap;
+      width: 300px;
+      height:400px;
+      background-color: #DBFBFF;
+      border-radius: 30px;
+      position: relative;
+      left: 680px;
+      bottom: 700px;
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+  }
+  .i13{
+      position: relative; 
+      display: flex;
+       left: 80px;
+       top: 10px;
+       
+   }
+   .l23{
+       width: 260px;
+       position: relative;
+       left: 25px;
+       top:10px;
+       font-family:sans-serif;
+   }
+   .l13{
+       position:relative;
+       left: 60px;
+       font-size: 27px;
+       font-family: monospace;
+       font-weight: bold;
+       font-style: italic;
+       color: #2F2E41;
+   }
+   .e4{
+      flex-wrap: wrap;
+      width: 300px;
+      height:400px;
+      background-color: #DBFBFF;
+      border-radius: 30px;
+      position: relative;
+      left: 1013px;
+      bottom: 1100px;
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+  }
+  .i14{
+      position: relative; 
+      display: flex;
+       left: 80px;
+       top: 10px;
+       
+   }
+   .l24{
+       width: 260px;
+       position: relative;
+       left: 25px;
+       top:10px;
+       font-family:sans-serif;
+   }
+   .l14{
+       position:relative;
+       left: 60px;
+       font-size: 27px;
+       font-family: monospace;
+       font-weight: bold;
+       font-style: italic;
+       color: #2F2E41;
+   }
+/* Hisham Code End */
