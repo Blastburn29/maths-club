@@ -34,7 +34,7 @@
                     Contact
                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.5302 12.1276C19.9398 12.1311 19.3568 12.2592 18.8194 12.5036C18.2381 12.7598 17.7429 13.1779 17.3928 13.708C17.0428 14.238 16.8527 14.8577 16.8453 15.4928V31.3226C16.8527 31.9577 17.0428 32.5774 17.3928 33.1074C17.7429 33.6375 18.2381 34.0556 18.8194 34.3118C19.4882 34.6277 20.2322 34.7494 20.9668 34.6629C21.7014 34.5765 22.397 34.2855 22.9742 33.823L32.5623 25.9081C32.9383 25.6088 33.2419 25.2285 33.4506 24.7956C33.6593 24.3627 33.7677 23.8883 33.7677 23.4077C33.7677 22.9271 33.6593 22.4527 33.4506 22.0198C33.2419 21.5869 32.9383 21.2066 32.5623 20.9073L22.9742 12.9924C22.2831 12.4319 21.42 12.1265 20.5302 12.1276Z" fill="white"/>
-                    </svg>                        
+                    </svg>
                 </button>
             </div>
             <div class="homepage-section-right">
@@ -51,17 +51,19 @@
                 <div class="container">
                   <header class="text-center h-2">Contact us for further details</header>
                   <br />
+                  <form class="form" action="contactform.php" method="POST">
                   <div class="flex-container">
                     <div class="flex-item">
                       <img src="/assets/maths-club-contact.svg" alt="" />
                     </div>
                     <div class="flex-item">
-                      <input type="text" name="" id="" placeholder="Name" /><br />
-                      <input type="email" name="" id="" placeholder="Email" /><br />
-                      <textarea name="" id="" placeholder="Description"></textarea><br />
-                      <input type="button" value="Submit" />
+                      <input type="text" name="name" id="name" placeholder="Name" /><br />
+                      <input type="email" name="email" id="email" placeholder="Email" /><br />
+                      <textarea name="desc" id="desc" placeholder="Description"></textarea><br />
+                      <input type="submit" name="submit" value="Send" id="contactb" />
                     </div>
                   </div>
+                </form>
                 </div>
               </div>
         </section>
@@ -72,7 +74,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="title">
-                            
+
                         </div>
                     </div>
                     <div class="team-card">
@@ -94,20 +96,20 @@
                                 <h4> iufsdofhsaipipfpsi </h4>
                             </div>
                         </div>
-                        
+
                     </div>
-  
-  
+
+
                 </div>
             </div>
-  
-  
-  
+
+
+
             <div class="team-section2">
                 <div class="container2">
                     <div class="row2">
                         <div class="title2">
-                            
+
                         </div>
                     </div>
                     <div class="team-card2">
@@ -120,9 +122,9 @@
                                 <h4> SUPER CORE </h4>
                             </div>
                         </div>
-                    
-                    
-                    
+
+
+
                         <div class="card2">
                             <div class="image-section2">
                                 <img src="assets/tempImage.png" width="100" height="100" >
@@ -132,10 +134,10 @@
                                 <h4> SUPER CORE </h4>
                             </div>
                         </div>
-                    
-                  
-  
-                 
+
+
+
+
                         <div class="card2">
                             <div class="image-section2">
                                 <img src="assets/tempImage.png" width="100" height="100" >
@@ -145,11 +147,11 @@
                                 <h4> SUPER CORE </h4>
                             </div>
                         </div>
-                    
-  
-  
-  
-                    
+
+
+
+
+
                         <div class="card2">
                             <div class="image-section2">
                                 <img src="assets/tempImage.png" width="100" height="100" >
@@ -159,8 +161,8 @@
                                 <h4> SUPER CORE </h4>
                             </div>
                         </div>
-                    
-  
+
+
                </div>
                 </div>
             </div>
@@ -170,7 +172,7 @@
             <div class="a">
 
                 EVENTS
-        
+
             </div>
             <div class="scroll">
             <div class="e1">
@@ -190,7 +192,7 @@
                     maxime, cupiditate, labore iusto nisi illo dicta ipsa impedit aut sit repudiandae eaque eius eligendi libero
                     consequatur exercitationem quos minus ab recusandae voluptatum numquam totam. Voluptas, dolore nobis.
                 </div>
-                
+
             </div>
             <div class="e3">
                 <div class="i13"><img src="assets/Num.svg" alt="error" height="105px" width="120px">
@@ -200,7 +202,7 @@
                     maxime, cupiditate, labore iusto nisi illo dicta ipsa impedit aut sit repudiandae eaque eius eligendi libero
                     consequatur exercitationem quos minus ab recusandae voluptatum numquam totam. Voluptas, dolore nobis.
                 </div>
-              
+
             </div>
         </div>
         <div class="e4">
@@ -211,7 +213,7 @@
                 maxime, cupiditate, labore iusto nisi illo dicta ipsa impedit aut sit repudiandae eaque eius eligendi libero
                 consequatur exercitationem quos minus ab recusandae voluptatum numquam totam. Voluptas, dolore nobis.
             </div>
-          
+
         </div>
         </section>
     </main>

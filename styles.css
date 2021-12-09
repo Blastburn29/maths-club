@@ -192,7 +192,7 @@ textarea{
     border-radius: 5px;
 }
 
-input[type=button]{
+#contactb{
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
@@ -253,7 +253,7 @@ input[type=button]:hover{
 	height: 200px;
 	width: 200px;
 	object-fit: cover;
-	
+
 
 }
 .team-section .container .team-card .card .content{
@@ -303,7 +303,7 @@ input[type=button]:hover{
 	width: 100px;
 	border-radius: 50%;
 	object-fit: cover;
-	
+
 
 }
 .team-section2 .container2 .team-card2 .card2 .content2{
@@ -318,7 +318,7 @@ input[type=button]:hover{
    display:flex;
    flex-wrap: wrap;
     justify-content: center;
-  
+
   }
   .e1{
       flex-wrap: wrap;
@@ -332,11 +332,11 @@ input[type=button]:hover{
       filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); ;
   }
   .i1{
-     position: relative; 
+     position: relative;
      display: flex;
       left: 80px;
       top: 10px;
-      
+
   }
   .l2{
       width: 260px;
@@ -354,8 +354,8 @@ input[type=button]:hover{
       font-style: italic;
       color: #2F2E41;
   }
-  
-  
+
+
   .e2{
       flex-wrap: wrap;
       width: 300px;
@@ -365,14 +365,14 @@ input[type=button]:hover{
       position: relative;
       left: 345px;
       bottom: 300px;
-      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289));
   }
   .i12{
-      position: relative; 
+      position: relative;
       display: flex;
        left: 80px;
        top: 10px;
-       
+
    }
    .l22{
        width: 260px;
@@ -390,9 +390,9 @@ input[type=button]:hover{
        font-style: italic;
        color: #2F2E41;
    }
-   
-   
-   
+
+
+
    .e3{
       flex-wrap: wrap;
       width: 300px;
@@ -402,14 +402,14 @@ input[type=button]:hover{
       position: relative;
       left: 680px;
       bottom: 700px;
-      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289));
   }
   .i13{
-      position: relative; 
+      position: relative;
       display: flex;
        left: 80px;
        top: 10px;
-       
+
    }
    .l23{
        width: 260px;
@@ -436,14 +436,14 @@ input[type=button]:hover{
       position: relative;
       left: 1013px;
       bottom: 1100px;
-      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289)); 
+      filter: drop-shadow(3px 4px 19px rgba(0, 111, 128, 0.289));
   }
   .i14{
-      position: relative; 
+      position: relative;
       display: flex;
        left: 80px;
        top: 10px;
-       
+
    }
    .l24{
        width: 260px;
